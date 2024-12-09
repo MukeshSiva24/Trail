@@ -14,7 +14,19 @@ And Click Make and Click Bajaj in dropdown
 And Click Model and Click  QUTE2018to2020 in dropdown
 And Click Variant and Click Petrol2018to2020 in dropdown
 And Click Generate Quick Quote
-Then Validate Payable Premium Breakup is Visible
+Then Validate Payable Premium Breakup is Visible New Things
+
+Scenario: Verify Grow your health
+When user clicks insurance dropdown
+And Click Insurance savings & Investments in personal Insurance 
+And scroll down and click my plan should have dropdown
+And click Regular premium term option
+Then verify the text in Gro Power Save Pro option
+When user clicks on learn more option
+And scroll down and click Brouchers
+And click Gro Power Saver Pro brouchers English
+Then verify whether Gro Power Saver Pro brouchers English is opening
+
 
 
 Scenario: ContactUs
