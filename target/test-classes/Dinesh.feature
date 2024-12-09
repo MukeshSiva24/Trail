@@ -1,15 +1,15 @@
 Feature: Nation Insurnace
 
 Scenario: Product
-#When Click The Product Module
-#Then Validate Motor Dropdown data
-#When Click The Explore All Motor Products
-#And Click The Private car Know More
-#And Click The Get Quote
-#Then Validate Vehicle Details page is navigate in new Tab
-#When Click The Vehicle Type and Click New in dropdown
-#And Click The Plan Type and Click Three Years Long Term Liability in dropdown
-#And Click RTO Location and Click Delhi - Central in dropdown
+When Click The Product Module
+Then Validate Motor Dropdown data
+When Click The Explore All Motor Products
+And Click The Private car Know More
+And Click The Get Quote
+Then Validate Vehicle Details page is navigate in new Tab
+When Click The Vehicle Type and Click New in dropdown
+And Click The Plan Type and Click Three Years Long Term Liability in dropdown
+And Click RTO Location and Click Delhi - Central in dropdown
 And Click Make and Click Bajaj in dropdown
 And Click Model and Click  QUTE2018to2020 in dropdown
 But Clicking 
@@ -24,6 +24,18 @@ Given fewfew
 When safsesde
 And sfdgfwefd
 And EFEWFEW
+
+Scenario: Verify Grow your health
+When user clicks insurance dropdown
+And Click Insurance savings & Investments in personal Insurance 
+And scroll down and click my plan should have dropdown
+And click Regular premium term option
+Then verify the text in Gro Power Save Pro option
+When user clicks on learn more option
+And scroll down and click Brouchers
+And click Gro Power Saver Pro brouchers English
+Then verify whether Gro Power Saver Pro brouchers English is opening
+
 
 
 Scenario: ContactUs
