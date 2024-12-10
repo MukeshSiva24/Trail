@@ -12,9 +12,23 @@ And Click The Plan Type and Click Three Years Long Term Liability in dropdown
 And Click RTO Location and Click Delhi - Central in dropdown
 And Click Make and Click Bajaj in dropdown
 And Click Model and Click  QUTE2018to2020 in dropdown
+But Clicking 
 And Click Variant and Click Petrol2018to2020 in dropdown
 And Click Generate Quick Quote
-Then Validate Payable Premium Breakup is Visible New Things
+Then Validating the value of it
+And Clicking
+
+
+Scenario: NEw
+Given fewfew
+When safsesde
+And sfdgfwefd
+And EFEWFEW
+
+
+
+Then donvasufbasifnawof
+
 
 Scenario: Verify Grow your health
 When user clicks insurance dropdown
